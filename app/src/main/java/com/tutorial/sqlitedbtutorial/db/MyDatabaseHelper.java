@@ -7,8 +7,6 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import java.net.IDN;
-
 public class MyDatabaseHelper extends SQLiteOpenHelper {
     public static final String TABLE_NAME = "USER_TABLE";
     public static final String ID = "_id";

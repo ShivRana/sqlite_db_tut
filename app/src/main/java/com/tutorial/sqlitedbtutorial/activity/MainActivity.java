@@ -1,4 +1,4 @@
-package com.tutorial.sqlitedbtutorial;
+package com.tutorial.sqlitedbtutorial.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.tutorial.sqlitedbtutorial.R;
 import com.tutorial.sqlitedbtutorial.db.MyDatabaseHelper;
 
 public class MainActivity extends AppCompatActivity {

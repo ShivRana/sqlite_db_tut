@@ -7,7 +7,8 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".activity.MainActivity">
+    tools:context=".activity.AddNewTaskActivity">
+
 
     <EditText
         android:id="@+id/et_name"
@@ -20,27 +21,14 @@
         android:id="@+id/et_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:hint="Phone"
         android:textColorHint="@color/black" />
 
     <Button
-        android:id="@+id/bt_read_data"
+        android:id="@+id/bt_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="read data"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/bt_write_data"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="write data"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Save" />
 
 </LinearLayout>
